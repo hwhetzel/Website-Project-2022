@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <!--External Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <!-- JavaScript function declarations -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Using an unordered list to create a navigation bar with each list element having a link to its
+         corresponding html file, so when its clicked it will send the user there-->
+    <div class="navBar">
+        <ul>
+            <li><a class="compName"><b>Homer Construction</b></a></li>
+            <li><a href="index.html" target="_parent">Home</a></li>
+            <li><a href="aboutUs.html" target="_parent">About Us</a></li>
+            <li><a href="projects.html" target="_parent">Projects</a></li>
+            <li><a class="active" href="contact.html" target="_parent">Contact Us</a></li>
+        </ul>
+    </div>
+    <h1>Contact Us</h1>
+    <p>If you have any questions about our business or want to get in contact about a future job let us know</p>
+    <main>
+        <!-- Creating a form where you put your full name, email, phone number, and any kind of message
+             Full Name, Email, and the message are required in order to press the submit button-->
+        <div class="formContainer">
+            <form action="#">
+                <div class="leftSide"><label for="fullName">Full Name:</label></div>
+                <div class="rightSide"><input type="text" id="fullName" name="fullName" placeholder="Full Name" required></div>
+                <div class="leftSide"><label for="email">Email:</label></div>
+                <div class="rightSide"><input type="email" id="email" name="email" placeholder="email@gmail.com" required><br></div>
+                <div class="leftSide"><label for="phoneNumber">Phone Number:</label></div>
+                <div class="rightSide"><input type="number" id="phoneNumber" name="phoneNumber" placeholder="123 456-7890"><br></div>
+                <div class="textBox"><label for="message"></label><textarea id="message" name="message" placeholder="Write something" required></textarea></div><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <!-- A footer with both the email and location of the business as well having html and css validation links -->
+        <!-- &nbsp adds a non break space -->
+        <p class="footerText">Email: homebuilder5@msn.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Location: 10100 Saffir Ct, Mint Hill, NC 28227</p>
+        <a href="https://validator.w3.org/">Validate HTML</a><a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+    </footer>
+</body>
+</html>

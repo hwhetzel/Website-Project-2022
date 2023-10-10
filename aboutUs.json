@@ -1,0 +1,13 @@
+{"projects":[
+  {
+    "title": "Ed Homer",
+    "acc": "accordionOne",
+    "bio": "My name is Ed Homer and I am the owner of Homer Construction. I have over 50 years of experience when it comes to construction and anything home improvement. Ever since I was little I have always loved to build and design things, whether it was with block or with actual wood. With that passion I went into construction and design work after college and haven't looked back."
+  },
+  {
+    "title": "Homer Construction",
+    "acc": "accordionTwo",
+    "bio": "Homer Construction was created in 1978 by Ed Homer. We have been in this business for over 40 years helping people change or add to their home. We are a family run company with me, my wife who runs finances, and my daughter who is the designer. We take great pride in our ability to provide excellent results that you will love."
+  }
+ ]
+}
